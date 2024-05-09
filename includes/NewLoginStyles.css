@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-.loginBoxes {
+.loginBoxes, .loginBox {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
 }
 
-.loginBoxes h1 {
+.loginBoxes h1, .loginBox h1 {
     margin-bottom: 30px;
     text-align: center;
     color: #333;
