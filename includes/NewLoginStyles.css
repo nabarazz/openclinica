@@ -9,7 +9,12 @@ div.login_BG { background: url(../images/login_BG.gif) no-repeat top center; hei
 #OClogo { background: url(../images/OC_login_logo.png) no-repeat top left; width: 428px; height: 112px; }
 
 #OClogoIE6 { background: url(../images/OC_login_logo.gif) no-repeat top left; width: 428px; height: 112px; } */
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
 .loginBoxes {
     margin: 100px auto;
