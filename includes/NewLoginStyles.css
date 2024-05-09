@@ -2,9 +2,9 @@
 
 /* general style propertyies */
 
-body.login_BG { background: url(../images/login_BG2.gif) repeat-x top left #FFFFFF; }
+/* body.login_BG { background: url(../images/login_BG2.gif) repeat-x top left #FFFFFF; }
 
-div.login_BG { background: url(../images/login_BG.gif) no-repeat top center; height: 100%; padding-top: 117px; }
+div.login_BG { background: url(../images/login_BG.gif) no-repeat top center; height: 100%; padding-top: 117px; } */
 /*
 #OClogo { background: url(../images/OC_login_logo.png) no-repeat top left; width: 428px; height: 112px; }
 
@@ -59,4 +59,4 @@ div.login_BG { background: url(../images/login_BG.gif) no-repeat top center; hei
 #requestPassword:hover {
     text-decoration: underline;
 }
-#loginBox, #newsBox { padding: 6px 28px 38px 28px; }
+/* #loginBox, #newsBox { padding: 6px 28px 38px 28px; } */
