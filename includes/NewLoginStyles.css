@@ -16,7 +16,18 @@ div.login_BG { background: url(../images/login_BG.gif) no-repeat top center; hei
 
 .loginBox_T { background: url(../images/login_box_T.png) no-repeat top center; height: 10px; line-height: 10px; font-size: 1px; }
 
-.loginBox { background: url(../images/login_box_BG.png) no-repeat bottom center; }
+.loginBoxes {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: url(../images/login_box_BG.png) no-repeat bottom center;
+    padding: 6px 28px 38px 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.loginBox {
+    margin-top: 20px; /* Add spacing between login boxes */
+}
 
 #loginBox, #newsBox { padding: 6px 28px 38px 28px; }
 
