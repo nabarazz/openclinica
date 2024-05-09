@@ -58,8 +58,5 @@
     </div>
 </div>
 
-<div id="footerDiv">
-    <view:footer />
-</div>
 </body>
 </html>

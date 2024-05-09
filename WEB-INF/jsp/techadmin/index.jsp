@@ -43,4 +43,4 @@
 <p><fmt:message key="As_a_Technical_Administrator_you_have_privileges_to" bundle="${restext}"/></p>
 
 
-<jsp:include page="../include/footer.jsp"/>
+<!-- <jsp:include page="../include/footer.jsp"/> -->

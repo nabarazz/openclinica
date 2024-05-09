@@ -150,4 +150,4 @@
 
 <!-- Footer -->
 <!-- End Main Content Area -->
-<jsp:include page="../login-include/login-footer.jsp"/>
+<!-- <jsp:include page="../login-include/login-footer.jsp"/> -->
