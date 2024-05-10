@@ -73,6 +73,11 @@ div.login_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
 
-.footer {
-    background-image: url(../images/login_footer_BG.gif);
-}
+.text-column {
+    flex: 1; /* Let the text column take remaining space */
+    padding-left: 20px; /* Add padding for spacing */
+  }
+  .gandaki {
+    color: red; /* Set text color to red */
+    font-size: medium; /* Set font size to medium */
+  }

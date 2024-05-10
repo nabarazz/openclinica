@@ -79,8 +79,10 @@
 
             <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
 
-                <p class="gandaki">क्लिनिकल ट्रायल</p>
-                <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+                <div class="text-column">
+                    <p class="gandaki">क्लिनिकल ट्रायल</p>
+                    <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+                </div>
                 <br/>
                 <tr>
                     <td class="loginBox">
