@@ -53,8 +53,16 @@
 	}
 	if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
 	<div ID="OClogo">&nbsp;</div>
+    <div class="text-column">
+        <p class="gandaki">क्लिनिकल ट्रायल</p>
+        <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+    </div>
     <%} else {%>
         <div ID="OClogo">&nbsp;</div>
+        <div class="text-column">
+            <p class="gandaki">क्लिनिकल ट्रायल</p>
+            <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+        </div>
           <%}%>
     <!-- end OpenClinica logo -->
         <table width="720 px">
@@ -79,10 +87,7 @@
 
             <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
 
-                <div class="text-column">
-                    <p class="gandaki">क्लिनिकल ट्रायल</p>
-                    <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
-                </div>
+
                 <br/>
                 <tr>
                     <td class="loginBox">
