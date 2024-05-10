@@ -18,9 +18,11 @@ div.login_BG {
 
 #OClogo {
     background: url(../images/OC_login_logo.png) no-repeat top left;
-    width: 120px; /* Adjusted width */
-    height: 98px; /* Adjusted height */
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }/* Adjusted height */
+
 
 #OClogoIE6 {
     background: url(../images/OC_login_logo.gif) no-repeat top left;
