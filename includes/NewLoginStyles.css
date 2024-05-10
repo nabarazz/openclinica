@@ -9,8 +9,8 @@ body.login_BG {
 
 div.login_BG {
     background: url(../images/login_BG.gif) no-repeat top center;
-    height: 100vh;
-    padding-top: 117px;
+    height: 70vh; /* Adjusted height */
+    padding-top: 50px; /* Adjusted padding */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,44 +18,44 @@ div.login_BG {
 
 #OClogo {
     background: url(../images/OC_login_logo.png) no-repeat top left;
-    width: 428px;
-    height: 112px;
-    margin-right: 428px; /* Adjusted margin */
+    width: 300px; /* Adjusted width */
+    height: 80px; /* Adjusted height */
+    margin-right: 50px; /* Adjusted margin */
 }
 
 #OClogoIE6 {
     background: url(../images/OC_login_logo.gif) no-repeat top left;
-    width: 326px; /* Adjusted width */
-    height: 112px;
+    width: 250px; /* Adjusted width */
+    height: 80px; /* Adjusted height */
 }
 
 .loginBoxes {
-    margin-bottom: 100px;
+    margin-bottom: 50px; /* Adjusted margin */
     display: flex;
     justify-content: center;
 }
 
 .loginBoxes td {
-    width: 310px;
+    width: 280px; /* Adjusted width */
     vertical-align: top;
     text-align: left;
 }
 
 .loginBox_T {
     background: url(../images/login_box_T.png) no-repeat top center;
-    height: 10px;
-    line-height: 10px;
+    height: 8px; /* Adjusted height */
+    line-height: 8px; /* Adjusted line height */
     font-size: 1px;
 }
 
 .loginBox {
     background: url(../images/login_box_BG.png) no-repeat bottom center;
-    padding: 30px; /* Adjusted padding */
+    padding: 20px; /* Adjusted padding */
 }
 
 #loginBox,
 #newsBox {
-    padding: 6px 28px 38px 28px;
+    padding: 6px 20px 30px 20px; /* Adjusted padding */
 }
 
 .loginBox form,
@@ -71,7 +71,7 @@ div.login_BG {
 }
 
 .loginBox li {
-    margin-bottom: 13px;
+    margin-bottom: 10px; /* Adjusted margin */
 }
 
 .footer {
