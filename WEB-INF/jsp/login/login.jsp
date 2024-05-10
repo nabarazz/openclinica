@@ -51,13 +51,11 @@
 		iev = temp.substring(4, temp.indexOf(";"));
 		iev = iev.trim();
 	}
-	<!-- if(iev.length() > 1 && Double.valueOf(iev)<7)  -->
-    {%>
+	if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
 	<div ID="OClogo">&nbsp;</div>
-    <%}
-    <!-- else {%>
+    <%} else {%>
         <div ID="OClogo">&nbsp;</div>
-          <%}%> -->
+          <%}%>
     <!-- end OpenClinica logo -->
         <table width="720 px">
 
