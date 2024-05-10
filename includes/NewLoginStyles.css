@@ -19,7 +19,7 @@ div.login_BG {
 #OClogo {
     background: url(../images/OC_login_logo.png) no-repeat top left;
     width: 117px; /* Adjusted width */
-    height: 98px;
+    height: 9px;
   }/* Adjusted height */
 
 
@@ -42,14 +42,14 @@ div.login_BG {
 }
 
 .loginBox_T {
-    background: url(../images/login_box_T.png) no-repeat top center;
+
     height: 8px; /* Adjusted height */
     line-height: 8px; /* Adjusted line height */
     font-size: 1px;
 }
 
 .loginBox {
-    background: url(../images/login_box_BG.png) no-repeat bottom center;
+
     padding: 20px; /* Adjusted padding */
 }
 
@@ -65,7 +65,7 @@ div.login_BG {
 
 .loginBox li,
 .loginBox ul {
-    list-style-image: url(../images/bullet.gif);
+
     margin-left: 7px;
     padding-left: 7px;
 }
@@ -74,6 +74,4 @@ div.login_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
 
-.footer {
-    background-image: url(../images/login_footer_BG.gif);
-}
+
