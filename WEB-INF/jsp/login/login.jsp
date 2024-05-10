@@ -52,9 +52,9 @@
 		iev = iev.trim();
 	}
 	if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
-	<div ID="OClogoIE6">&nbsp;</div>
+	<!-- <div ID="OClogoIE6">&nbsp;</div> -->
 	<%} else {%>
-    <div ID="OClogo">&nbsp;</div>
+    <!-- <div ID="OClogo">&nbsp;</div> -->
   	<%}%>
     <!-- end OpenClinica logo -->
         <table width="720 px">
@@ -77,38 +77,39 @@
     </script>
             </table>
 
-    <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
-        <tr>
-            <td class="loginBox_T">&nbsp;</td>
-            <td class="loginBox_T">&nbsp;</td>
-       </tr>
-       <tr>
-            <td class="loginBox">
-            <div ID="loginBox">
-            <!-- Login box contents -->
-                <div ID="login">
-                    <form action="<c:url value='/j_spring_security_check'/>" method="post">
-                    <h1><fmt:message key="login" bundle="${resword}"/></h1>
-                    <b><fmt:message key="user_name" bundle="${resword}"/></b>
-                        <div class="formfieldM_BG">
-                            <input type="text" id="username" name="j_username" class="formfieldM">
-                        </div>
+            <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
+                <tr>
+                    <td class="loginBox_T"> </td>
+                    <td class="loginBox_T"> </td>
+                </tr>
+                <tr>
+                    <td class="loginBox">
+                        <div ID="loginBox">
+                            <!-- Login box contents -->
+                            <div ID="login">
+                                <form action="<c:url value='/j_spring_security_check'/>" method="post">
+                                    <h1><fmt:message key="login" bundle="${resword}"/></h1>
+                                    <b><fmt:message key="user_name" bundle="${resword}"/></b>
+                                    <div class="formfieldM_BG">
+                                        <input type="text" id="username" name="j_username" class="formfieldM">
+                                    </div>
 
-                    <b><fmt:message key="password" bundle="${resword}"/></b>
-                        <div class="formfieldM_BG">
-                            <input type="password" id="j_password" name="j_password"  class="formfieldM"  autocomplete="off">
+                                    <b><fmt:message key="password" bundle="${resword}"/></b>
+                                    <div class="formfieldM_BG">
+                                        <input type="password" id="j_password" name="j_password" class="formfieldM" autocomplete="off">
+                                    </div>
+                                    <input type="submit" name="submit" value="<fmt:message key='login' bundle='${resword}'/>" class="loginbutton" />
+                                    <a href="#" id="requestPassword"> <fmt:message key="forgot_password" bundle="${resword}"/></a>
+                                </form>
+                                <br/><jsp:include page="../login-include/login-alertbox.jsp"/>
+                                <%-- <a href="<c:url value="/RequestPassword"/>"> <fmt:message key="forgot_password" bundle="${resword}"/></a> --%>
+                            </div>
+                            <!-- End Login box contents -->
                         </div>
-                    <input type="submit" name="submit" value="<fmt:message key='login' bundle='${resword}'/>" class="loginbutton" />
-                    <a href="#" id="requestPassword"> <fmt:message key="forgot_password" bundle="${resword}"/></a>
-                   </form>
-                   <br/><jsp:include page="../login-include/login-alertbox.jsp"/>
-                   <%-- <a href="<c:url value="/RequestPassword"/>"> <fmt:message key="forgot_password" bundle="${resword}"/></a> --%>
-               </div>
-            <!-- End Login box contents -->
-            </div>
-            </td>
-      </tr>
-    </table>
+                    </td>
+                </tr>
+            </table>
+
 
     </center>
 
