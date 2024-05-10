@@ -18,8 +18,8 @@ div.login_BG {
 
 #OClogo {
     background: url(../images/OC_login_logo.png) no-repeat top left;
-    margin-left: auto;
-    margin-right: auto;
+    width: 250px; /* Adjusted width */
+    height: 80px;
   }/* Adjusted height */
 
 
