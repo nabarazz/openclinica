@@ -1,64 +1,78 @@
-/* General styling */
+/* CSS Document */
+
+/* General style properties */
 body.login_BG {
-    background: #f4f4f4; /* Light grey background */
-    font-family: Arial, sans-serif; /* Set a clean font */
-  }
+    background: url(../images/login_BG2.gif) repeat-x top left #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
 
-  /* Centering the logo and form */
-  #OClogo, .loginBoxes {
-    background: url(../images/OC_login_logo.png);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content; /* Adjust width to content */
-  }
+div.login_BG {
+    background: url(../images/login_BG.gif) no-repeat top center;
+    height: 70vh; /* Adjusted height */
+    padding-top: 50px; /* Adjusted padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  /* Styling the login box */
-  .loginBox {
-    background: #fff; /* White background for the form */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    padding: 20px; /* Spacing inside the box */
-    width: 300px; /* Fixed width */
-    margin-top: 20px; /* Space above the form */
-  }
+#OClogo {
+    background: url(../images/OC_login_logo.png) no-repeat top left;
+    width: 120px; /* Adjusted width */
+    height: 98px; /* Adjusted height */
+}
 
-  /* Styling the input fields */
-  input[type="text"], input[type="password"] {
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 4px; /* Rounded corners */
-    padding: 10px; /* Spacing inside the input */
-    width: 100%; /* Full width */
-    margin-bottom: 10px; /* Space below each field */
-  }
+#OClogoIE6 {
+    background: url(../images/OC_login_logo.gif) no-repeat top left;
+    width: 250px; /* Adjusted width */
+    height: 80px; /* Adjusted height */
+}
 
-  /* Styling the buttons */
-  input[type="submit"], .button {
-    background: #007bff; /* Blue background */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    color: #fff; /* White text */
-    padding: 10px 15px; /* Spacing inside the button */
-    text-transform: uppercase; /* Uppercase text */
-    cursor: pointer; /* Pointer cursor on hover */
-    width: 100%; /* Full width */
-  }
+.loginBoxes {
+    margin-bottom: 50px; /* Adjusted margin */
+    display: flex;
+    justify-content: center;
+}
 
-  /* Hover effect for buttons */
-  input[type="submit"]:hover, .button:hover {
-    background: #0056b3; /* Darker blue on hover */
-  }
+.loginBoxes td {
+    width: 280px; /* Adjusted width */
+    vertical-align: top;
+    text-align: left;
+}
 
-  /* Styling the 'Forgot Password?' link */
-  a.forgot-password {
-    color: #007bff; /* Blue text */
-    text-decoration: none; /* No underline */
-    font-size: 0.9em; /* Smaller text */
-  }
+.loginBox_T {
+    background: url(../images/login_box_T.png) no-repeat top center;
+    height: 8px; /* Adjusted height */
+    line-height: 8px; /* Adjusted line height */
+    font-size: 1px;
+}
 
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .loginBox {
-      width: 90%; /* More width on smaller screens */
-    }
-  }
+.loginBox {
+    background: url(../images/login_box_BG.png) no-repeat bottom center;
+    padding: 20px; /* Adjusted padding */
+}
+
+#loginBox,
+#newsBox {
+    padding: 6px 20px 30px 20px; /* Adjusted padding */
+}
+
+.loginBox form,
+.loginBox H1 {
+    margin-top: 0;
+}
+
+.loginBox li,
+.loginBox ul {
+    list-style-image: url(../images/bullet.gif);
+    margin-left: 7px;
+    padding-left: 7px;
+}
+
+.loginBox li {
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.footer {
+    background-image: url(../images/login_footer_BG.gif);
+}
