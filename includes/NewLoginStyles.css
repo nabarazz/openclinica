@@ -13,54 +13,56 @@ body {
 }
 
 .loginBox {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     width: 340px;
     padding: 40px;
     box-sizing: border-box;
+    margin: auto; /* Center the login box horizontally */
 }
 
 .loginBox h1 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     color: #333;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 /* Form styles */
-/* .formfieldM_BG {
-    margin-bottom: 25px;
+.formfieldM_BG {
+    margin-bottom: 20px;
     background-color: #f9f9f9;
-    padding: 2px;
+    padding: 10px;
     border-radius: 6px;
 }
 
 .formfieldM {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: none;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
-} */
+}
 
 /* Button styles */
 .loginbutton {
     width: 100%;
     padding: 12px;
-    text-align: center;
     background-color: #3498db;
+    color: #fff;
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 12px;
-
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-/* .loginbutton:hover {
+.loginbutton:hover {
     background-color: #2980b9;
-} */
+}
 
 /* Forgot password link styles */
 #requestPassword {
