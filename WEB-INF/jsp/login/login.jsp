@@ -78,10 +78,7 @@
             </table>
 
             <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
-                <tr>
-                    <td class="loginBox_T"> </td>
-                    <td class="loginBox_T"> </td>
-                </tr>
+
                 <tr>
                     <td class="loginBox">
                         <div ID="loginBox">
