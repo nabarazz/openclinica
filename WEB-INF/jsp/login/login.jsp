@@ -51,7 +51,7 @@
 		iev = temp.substring(4, temp.indexOf(";"));
 		iev = iev.trim();
 	}
-	if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
+	<!-- if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
 	<div ID="OClogo">&nbsp;</div>
     <div class="text-column">
         <p class="gandaki">क्लिनिकल ट्रायल</p>
@@ -63,9 +63,9 @@
             <p class="gandaki">क्लिनिकल ट्रायल</p>
             <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
         </div>
-          <%}%>
+        <%}%> -->
     <!-- end OpenClinica logo -->
-        <table width="720 px">
+        <table width="1000 px">
 
     <script type="text/javascript">
         var parser = new UAParser();
@@ -86,6 +86,11 @@
             </table>
 
             <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
+                <div ID="OClogo">&nbsp;</div>
+                <div class="text-column">
+                    <p class="gandaki">क्लिनिकल ट्रायल</p>
+                    <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+                </div>
 
 
                 <br/>
