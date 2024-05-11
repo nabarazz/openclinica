@@ -16,7 +16,7 @@
             <tr>
                 <td class="footer_bottom" style="width:240px">
                     <center>
-                        <p>Powered by <b>OpenClinica</b> Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
+                        <p>Powered by <b>OpenClinica</b> <br>Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
                     </center>
 
                 </td>

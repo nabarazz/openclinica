@@ -71,7 +71,7 @@
 
 <!-- Main Navigation -->
      <div class="oc_nav">
-        <div id="StudyInfo">
+        <!-- <div id="StudyInfo">
             <c:choose>
                 <c:when test='${study.parentStudyId > 0}'>
                     <b><a href="${urlPrefix}ViewStudy?id=${study.parentStudyId}&viewFull=yes" title="<c:out value='${study.parentStudyName}'/>" alt="<c:out value='${study.parentStudyName}'/>" ><c:out value="${study.abbreviatedParentStudyName}" /></a>
@@ -83,7 +83,7 @@
             </c:choose>
             (<c:out value="${study.abbreviatedIdentifier}" />)&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="${urlPrefix}ChangeStudy"><fmt:message key="change_study_site" bundle="${resworkflow}"/></a>
-        </div>
+        </div> -->
         <div id="UserInfo">
             <a href="${urlPrefix}UpdateProfile"><b><c:out value="${userBean.name}" /></b> (<c:out value="${userRole.role.description}" />)&nbsp;
 				<c:out value="<%=ResourceBundleProvider.getLocale().toString()%>"/>
