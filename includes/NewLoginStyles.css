@@ -90,8 +90,10 @@ div.login_BG {
 .formfieldM_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
-.loginbutton{
-    margin-bottom: 10px;
+.loginbutton {
+    font-size: medium; /* Set button font size to medium */
+    padding: 15px 30px; /* Adjusted button padding */
+    width: 100%; /* Adjusted width */
 }
 
 .gandaki {
