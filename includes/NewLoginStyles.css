@@ -91,12 +91,11 @@ div.login_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
 .loginbutton {
-     padding: 15px 30px; /* Adjusted button padding */
-     margin-bottom: 10px;
-     height: 10px;
-
+    font-size: medium; /* Set button font size to medium */
+    padding: 10px 30px; /* Adjusted button padding */
+    height: auto; /* Set height to auto to fit content */
+    line-height: normal; /* Reset line height */
 }
-
 .gandaki {
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
