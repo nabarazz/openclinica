@@ -50,9 +50,10 @@
             <center>
                 <div class="flex-container">
                     <div id="OClogo"></div>
-                    <p class="gandaki">क्लिनिकल ट्रायल</p>
-                    <hr/>
-                    <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+                    <p class="gandaki">
+                        <pre>क्लिनिकल ट्रायल
+                            गण्डकी प्रदेश, पोखरा, नेपाल</pre>
+                    </p>
                 </div>
             </center>
     <!-- end OpenClinica logo -->
