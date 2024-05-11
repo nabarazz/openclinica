@@ -45,9 +45,9 @@ div.login_BG {
 }
 
 .loginBoxes td {
-    width: 280px; /* Adjusted width */
+    width: 320px; /* Adjusted width */
     vertical-align: top;
-    text-align: left;
+    text-align: center; /* Align text to center */
 }
 
 .loginBox_T {
@@ -59,7 +59,7 @@ div.login_BG {
 
 .loginBox {
     background: url(../images/login_box_BG.png) no-repeat bottom center;
-    padding: 20px; /* Adjusted padding */
+    padding: 40px; /* Adjusted padding */
 }
 
 #loginBox,
@@ -68,7 +68,7 @@ div.login_BG {
 }
 
 .loginBox form,
-.loginBox H1 {
+.loginBox h1 {
     margin-top: 0;
 }
 
@@ -80,20 +80,20 @@ div.login_BG {
 }
 
 .loginBox li {
-    margin-bottom: 10px; /* Adjusted margin */
+    margin-bottom: 20px; /* Adjusted margin */
 }
 
 .formfieldM {
-    font-size: medium; /* Set font size to medium */
-}
-
-.formfieldM_BG {
-    margin-bottom: 10px; /* Adjusted margin */
+    font-size: large; /* Set font size to large */
+    width: 100%; /* Adjusted width */
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 20px; /* Adjusted margin */
 }
 
 .loginbutton {
-    font-size: larger; /* Increase button font size */
-    padding: 10px 20px; /* Increase button padding */
+    font-size: x-large; /* Increase button font size */
+    padding: 15px 30px; /* Increase button padding */
+    width: 100%; /* Adjusted width */
 }
 
 .gandaki {
