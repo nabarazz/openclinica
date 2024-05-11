@@ -15,7 +15,10 @@
 <table border="0" cellpadding="0" width="100%"  >
             <tr>
                 <td class="footer_bottom" style="width:240px">
-                    <p>Powered by <b>OpenClinica</b> Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
+                    <center>
+                        <p>Powered by <b>OpenClinica</b> Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
+                    </center>
+
                 </td>
 
             </tr>
