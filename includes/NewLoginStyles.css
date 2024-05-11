@@ -90,9 +90,7 @@ div.login_BG {
 .formfieldM_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
-.loginbutton {
-    line-height: 1.15; /* Reset line height */
-}
+
 .gandaki {
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
