@@ -90,6 +90,9 @@ div.login_BG {
 .formfieldM_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
+.loginbutton{
+    margin-bottom: medium;
+}
 
 .gandaki {
     color: red; /* Set text color to red */
