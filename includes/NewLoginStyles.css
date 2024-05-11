@@ -90,6 +90,7 @@ div.login_BG {
     vertical-align: middle;
   }
   .gandaki {
+    flex: 1;
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
   }
