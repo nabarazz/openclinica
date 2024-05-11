@@ -20,7 +20,7 @@ div.login_BG {
     background: url(../images/OC_login_logo.png) no-repeat top left;
     width: 120px; /* Adjusted width */
     height: 98px; /* Adjusted height */
-    margin-right: 0px;
+
 
 }
 
@@ -37,7 +37,7 @@ div.login_BG {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
