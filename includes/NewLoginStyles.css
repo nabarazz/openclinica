@@ -84,9 +84,11 @@ div.login_BG {
 .text-column {
     flex: 1; /* Let the text column take remaining space */
     padding-left: 0px; /* Add padding for spacing */
-    /* margin-left: 20px; */
+    margin-left: 0; /* Remove left margin */
+    padding-left: 0; /* Remove left padding */
   }
   .gandaki {
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
+    margin: 0;
   }
