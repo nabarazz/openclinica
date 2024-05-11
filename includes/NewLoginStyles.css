@@ -20,6 +20,7 @@ div.login_BG {
     background: url(../images/OC_login_logo.png) no-repeat top left;
     width: 120px; /* Adjusted width */
     height: 98px; /* Adjusted height */
+    vertical-align: middle;
 
 
 }
@@ -86,7 +87,7 @@ div.login_BG {
 .text-column {
     flex: 1; /* Let the text column take remaining space */
     padding-left: 0px; /* Add padding for spacing */
-    line-height: normal;
+    vertical-align: middle;
   }
   .gandaki {
     color: red; /* Set text color to red */
