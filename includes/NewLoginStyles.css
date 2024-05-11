@@ -37,6 +37,7 @@ div.login_BG {
 }
 .flex-container {
     display: flex;
+    align-items: center;
     justify-content: center; /* Center children horizontally */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
