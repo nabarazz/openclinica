@@ -92,7 +92,6 @@ div.login_BG {
 }
 .loginbutton {
     font-size: medium; /* Set button font size to medium */
-    padding: 10px 30px; /* Adjusted button padding */
     height: auto; /* Set height to auto to fit content */
     line-height: normal; /* Reset line height */
 }
