@@ -16,8 +16,6 @@
             <tr>
                 <td class="footer_bottom" style="width:240px">
                     <p>Powered by <b>OpenClinica</b> Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
-
-
                 </td>
 
             </tr>
