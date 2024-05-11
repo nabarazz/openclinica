@@ -49,7 +49,7 @@
 
             <center>
                 <div class="flex-container">
-                    <div id="OClogo"><p class="gandaki">क्लिनिकल ट्रायल</p></div>
+                    <div id="OClogo"></div><p class="gandaki">क्लिनिकल ट्रायल</p>
                     <div class="text-column">
                         <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
                     </div>
