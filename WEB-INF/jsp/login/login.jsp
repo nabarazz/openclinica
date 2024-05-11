@@ -79,8 +79,6 @@
             </table>
 
             <table border="0" cellpadding="0" cellspacing="0" class="loginBoxes">
-
-
                 <br/>
                 <tr>
                     <td class="loginBox">
@@ -93,7 +91,6 @@
                                     <div class="formfieldM_BG">
                                         <input type="text" id="username" name="j_username" class="formfieldM">
                                     </div>
-
                                     <b><fmt:message key="password" bundle="${resword}"/></b>
                                     <div class="formfieldM_BG">
                                         <input type="password" id="j_password" name="j_password" class="formfieldM" autocomplete="off">
@@ -109,7 +106,6 @@
                     </td>
                 </tr>
             </table>
-
 
     </center>
 

@@ -21,8 +21,6 @@ div.login_BG {
     width: 120px; /* Adjusted width */
     height: 98px; /* Adjusted height */
     vertical-align: middle;
-
-
 }
 
 #OClogoIE6 {
@@ -36,6 +34,7 @@ div.login_BG {
     display: flex;
     justify-content: center;
 }
+
 .flex-container {
     display: flex;
     align-items: center;
@@ -43,7 +42,7 @@ div.login_BG {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     line-height: 0;
-  }
+}
 
 .loginBoxes td {
     width: 280px; /* Adjusted width */
@@ -84,13 +83,17 @@ div.login_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
 
-.text-column { /* Let the text column take remaining space */
-    padding-left: 0px; /* Add padding for spacing */
-    vertical-align: middle;
-  }
-  .gandaki {
+.formfieldM {
+    font-size: medium; /* Set font size to medium */
+}
+
+.formfieldM_BG {
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.gandaki {
     color: red; /* Set text color to red */
-    font-size: medium;
-    padding-left: 7px;/* Set font size to medium */
+    font-size: medium; /* Set font size to medium */
+    padding-left: 7px; /* Adjusted padding */
     line-height: 1.5;
-  }
+}
