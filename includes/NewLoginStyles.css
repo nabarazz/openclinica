@@ -92,8 +92,8 @@ div.login_BG {
 }
 .loginbutton {
     font-size: medium; /* Set button font size to medium */
-    height: auto; /* Set height to auto to fit content */
-    line-height: normal; /* Reset line height */
+    height: medium; /* Set height to auto to fit content */
+    line-height: medium; /* Reset line height */
 }
 .gandaki {
     color: red; /* Set text color to red */
