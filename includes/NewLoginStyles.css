@@ -37,9 +37,10 @@ div.login_BG {
 }
 .flex-container {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-}
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
 
 .loginBoxes td {
     width: 280px; /* Adjusted width */
