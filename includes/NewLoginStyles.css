@@ -92,4 +92,5 @@ div.login_BG {
     color: red; /* Set text color to red */
     font-size: medium;
     padding-left: 7px;/* Set font size to medium */
+    line-height: 1.5;
   }
