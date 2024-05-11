@@ -106,6 +106,7 @@
                     </td>
                 </tr>
             </table>
+            <p class="gandaki">Powered by <b>OpenClinica</b> Upgraded/Customized by <b>Health Directorate, Gandaki Province</b></p>
 
     </center>
 
