@@ -48,12 +48,12 @@
         endIndex).trim(); } } boolean isIE=(iev.length()> 1 && Double.valueOf(iev) < 7); %>
 
             <center>
-                <div class="flex-container">
+
                     <div id="OClogo"></div><p class="gandaki">क्लिनिकल ट्रायल</p>
                     <div class="text-column">
                         <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
                     </div>
-                </div>
+
             </center>
     <!-- end OpenClinica logo -->
         <table width="720 px">
