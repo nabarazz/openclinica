@@ -91,6 +91,11 @@ div.login_BG {
     margin-bottom: 10px; /* Adjusted margin */
 }
 
+.loginbutton {
+    font-size: larger; /* Increase button font size */
+    padding: 10px 20px; /* Increase button padding */
+}
+
 .gandaki {
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
