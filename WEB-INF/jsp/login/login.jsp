@@ -50,10 +50,10 @@
             <center>
                 <div class="flex-container">
                     <div id="OClogo"></div>
-                    <p class="gandaki">
-                        क्लिनिकल ट्रायल<br>
-                        गण्डकी प्रदेश,<br>
-                        पोखरा, नेपाल
+                    <p class="gandaki"><b>
+                        स्वास्थ्य निर्देशनालय<br>
+                        गण्डकी प्रदेश<br>
+                        पोखरा, नेपाल</b>
                     </p>
                 </div>
             </center>
