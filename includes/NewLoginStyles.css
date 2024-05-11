@@ -20,14 +20,6 @@ div.login_BG {
     background: url(../images/OC_login_logo.png) no-repeat top left;
     width: 120px; /* Adjusted width */
     height: 98px; /* Adjusted height */
-
-
-}
-
-#OClogoIE6 {
-    background: url(../images/OC_login_logo.gif) no-repeat top left;
-    width: 250px; /* Adjusted width */
-    height: 80px; /* Adjusted height */
 }
 
 .loginBoxes {
@@ -35,13 +27,6 @@ div.login_BG {
     display: flex;
     justify-content: center;
 }
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center children horizontally */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-  }
 
 .loginBoxes td {
     width: 280px; /* Adjusted width */
@@ -83,11 +68,12 @@ div.login_BG {
 }
 
 .text-column {
-    flex: 1; /* Let the text column take remaining space */
-    padding-left: 0px; /* Add padding for spacing */
-    /* margin-left: 20px; */
-  }
-  .gandaki {
+    display: flex; /* Use flexbox for text and image */
+    align-items: center; /* Vertically center items */
+    padding-left: 20px; /* Add padding for spacing */
+}
+
+.gandaki {
     color: red; /* Set text color to red */
     font-size: medium; /* Set font size to medium */
-  }
+}
