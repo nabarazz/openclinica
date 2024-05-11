@@ -43,34 +43,19 @@
     <center>
 
     <!-- OpenClinica logo -->
-	<%String ua = request.getHeader( "User-Agent" );
-	String temp = "";
-	String iev = "";
-	if( ua != null && ua.indexOf( "MSIE" ) != -1 ) {
-		temp = ua.substring(ua.indexOf( "MSIE" ),ua.length());
-		iev = temp.substring(4, temp.indexOf(";"));
-		iev = iev.trim();
-	}
-	if(iev.length() > 1 && Double.valueOf(iev)<7) {%>
-        <center>
-            <div ID="OClogo">&nbsp;</div>
-            <div class="text-column">
-                <p class="gandaki">क्लिनिकल ट्रायल</p>
-                <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
-            </div>
+    <% String ua=request.getHeader("User-Agent"); String iev="" ; if (ua !=null && ua.contains("MSIE")) { int
+        index=ua.indexOf("MSIE"); int endIndex=ua.indexOf(";", index); if (endIndex !=-1) { iev=ua.substring(index + 4,
+        endIndex).trim(); } } boolean isIE=(iev.length()> 1 && Double.valueOf(iev) < 7); %>
 
-        </center>
-
-    <%} else {%>
-        <center>
-            <div ID="OClogo">&nbsp;</div>
-            <div class="text-column">
-                <p class="gandaki">क्लिनिकल ट्रायल</p>
-                <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
-            </div>
-
-        </center>
-          <%}%>
+            <center>
+                <div class="flex-container">
+                    <div id="OClogo"></div>
+                    <div class="text-column">
+                        <p class="gandaki">क्लिनिकल ट्रायल</p>
+                        <p class="gandaki">गण्डकी प्रदेश, पोखरा, नेपाल</p>
+                    </div>
+                </div>
+            </center>
     <!-- end OpenClinica logo -->
         <table width="720 px">
 
