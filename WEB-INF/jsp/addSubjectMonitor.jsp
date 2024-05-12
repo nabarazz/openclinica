@@ -59,7 +59,7 @@
 	<c:if test='${presetValue.key == "group"}'>
 		<c:set var="groupId" value="${presetValue.value}" />
 	</c:if>
-	
+
 	<c:if test='${presetValue.key == "studyEventDefinition"}'>
 		<c:set var="studyEventDefinition" value="${presetValue.value}" />
 	</c:if>
@@ -102,7 +102,7 @@
                 <tr>
                     <td><jsp:include page="showMessage.jsp"><jsp:param name="key" value="label"/></jsp:include></td>
                 </tr>
-                
+
             </table>
         </td>
     </tr>
@@ -146,7 +146,7 @@
     </c:otherwise>
     </c:choose>
 
-    <tr valign="top">
+    <!-- <tr valign="top">
 
         <td class="formlabel">
             <fmt:message key="enrollment_date" bundle="${resword}"/>:
@@ -155,7 +155,7 @@
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td valign="top">
-            <!--layer-background-color:white;-->
+
             <div class="formfieldM_BG">
                         <input onfocus="this.select()" type="text" name="enrollmentDate" size="15" value="<c:out value="${enrollmentDate}" />" class="formfieldM" id="enrollmentDateField" />
                     </td>
@@ -174,9 +174,9 @@
                 </tr>
             </table>
         </td>
-    </tr>
+    </tr> -->
 
-    <tr valign="top">
+    <!-- <tr valign="top">
         <c:if test="${study.studyParameterConfig.genderRequired !='not used'}">
         <td class="formlabel"><fmt:message key="gender" bundle="${resword}"/>:</td>
         <td valign="top">
@@ -212,17 +212,17 @@
         </c:when>
         </c:choose>
     </td>
-    </tr>
+    </tr> -->
     </table>
         </td>
     </c:if>
     </tr>
-    <tr>
+    <!-- <tr>
         <td colspan="2"><jsp:include page="showMessage.jsp"><jsp:param name="key" value="gender"/></jsp:include></td>
-    </tr>
+    </tr> -->
 
 
-    <c:choose>
+    <!-- <c:choose>
     <c:when test="${study.studyParameterConfig.collectDob == '1'}">
     <tr valign="top">
         <td class="formlabel"><fmt:message key="date_of_birth" bundle="${resword}"/>:</td>
@@ -272,7 +272,7 @@
   <c:otherwise>
     <input type="hidden" name="dob" value="" />
   </c:otherwise>
- </c:choose>
+ </c:choose> -->
 <c:if test="${(!empty studyGroupClasses)}">
     <tr valign="top">
       <td class="formlabel"><fmt:message key="subject_group_class" bundle="${resword}"/>:
