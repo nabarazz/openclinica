@@ -76,7 +76,7 @@
 
 
 <h1><span class="title_manage">
-<fmt:message key="view_subjects_in" bundle="${restext}"/> <c:out value="${study.name}"/>
+
 </span></h1>
 
 <div id="findSubjectsDiv">
