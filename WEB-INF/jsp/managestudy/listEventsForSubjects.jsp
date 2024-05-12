@@ -75,9 +75,6 @@
 <jsp:useBean scope='request' id='crf' class='org.akaza.openclinica.bean.admin.CRFBean'/>
 
 
-<h1><span class="title_manage">
-
-</span></h1>
 
 <div id="findSubjectsDiv">
     <form  action="${pageContext.request.contextPath}/ListEventsForSubjects">
