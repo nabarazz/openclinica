@@ -196,11 +196,11 @@
             </c:if>
 
         </td>
-	  	<td valign="top">
+	  	<!-- <td valign="top">
 			<table border="0" cellpadding="0" cellspacing="0">
 				<tr>
 					<td valign="top">
-            <!--layer-background-color:white;-->
+
             <div id="testdiv1" style="position:absolute;visibility:hidden;z-index:8;background-color:white;"></div>
 
             <div class="formfieldM_BG">
@@ -214,11 +214,11 @@
                         </script>
 
                     </a>
-					<!-- <c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
+					<c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
 					  <a href="#" onClick="openDSNoteWindow('CreateDiscrepancyNote?name=studySub&field=enrollmentDate&column=enrollment_date','spanAlert-enrollmentDate'); return false;">
 
 					  </a>
-					</c:if> -->
+					</c:if>
 					</td>
 				</tr>
 				<tr>
@@ -226,9 +226,9 @@
 				</tr>
 			</table>
 	  	</td>
-	</tr>
+	</tr> -->
 
-	<tr valign="top">
+	<!-- <tr valign="top">
         <c:if test="${study.studyParameterConfig.genderRequired !='not used'}">
         <td class="formlabel"><fmt:message key="gender" bundle="${resword}"/>:</td>
 		<td valign="top">
@@ -275,7 +275,7 @@
 			</table>
 		</td>
     </c:if>
-    </tr>
+    </tr> -->
 
 	<!-- <c:choose>
 	<c:when test="${study.studyParameterConfig.collectDob == '1'}">
