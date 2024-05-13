@@ -277,7 +277,7 @@
     </c:if>
     </tr>
 
-	<c:choose>
+	<!-- <c:choose>
 	<c:when test="${study.studyParameterConfig.collectDob == '1'}">
 	<tr valign="top">
 		<td class="formlabel"><fmt:message key="date_of_birth" bundle="${resword}"/>:</td>
@@ -329,7 +329,7 @@
   <c:otherwise>
     <input type="hidden" name="dob" value="" />
   </c:otherwise>
- </c:choose>
+ </c:choose> -->
 
 
 </table>
