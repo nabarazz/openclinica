@@ -62,8 +62,8 @@
   <tr valign="bottom"><td class="table_header_column"><fmt:message key="study_subject_ID" bundle="${resword}"/>:</td><td class="table_cell"><c:out value="${studySub.label}"/></td></tr>
   <tr valign="bottom"><td class="table_header_column"><fmt:message key="secondary_ID" bundle="${resword}"/>:</td><td class="table_cell"><c:out value="${studySub.secondaryLabel}"/>&nbsp;
   </td></tr>
-  <tr valign="bottom"><td class="table_header_column"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td>
-  <td class="table_cell"><fmt:formatDate value="${studySub.enrollmentDate}" pattern="${dteFormat}"/></td></tr>
+  <!-- <tr valign="bottom"><td class="table_header_column"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td>
+  <td class="table_cell"><fmt:formatDate value="${studySub.enrollmentDate}" pattern="${dteFormat}"/></td></tr> -->
   <tr valign="top"><td class="table_header_column"><fmt:message key="created_by" bundle="${resword}"/>:</td><td class="table_cell"><c:out value="${studySub.owner.name}"/></td></tr>
   <tr valign="top"><td class="table_header_column"><fmt:message key="date_created" bundle="${resword}"/>:</td><td class="table_cell"><fmt:formatDate value="${studySub.createdDate}" pattern="${dteFormat}"/>
   </td></tr>
