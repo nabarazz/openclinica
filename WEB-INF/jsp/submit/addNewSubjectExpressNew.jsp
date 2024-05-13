@@ -177,7 +177,7 @@
         </td>
     </tr> -->
 
-    <tr valign="top">
+    <!-- <tr valign="top">
         <c:if test="${study.studyParameterConfig.genderRequired !='not used'}">
         <td class="formlabel"><fmt:message key="gender" bundle="${resword}"/>:</td>
         <td valign="top">
@@ -220,7 +220,7 @@
     </tr>
     <tr>
         <td colspan="2"><jsp:include page="../showMessage.jsp"><jsp:param name="key" value="gender"/></jsp:include></td>
-    </tr>
+    </tr> -->
 
 
     <!-- <c:choose>
