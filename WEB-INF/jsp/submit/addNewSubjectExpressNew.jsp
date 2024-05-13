@@ -147,7 +147,7 @@
     </c:otherwise>
     </c:choose>
 
-    <!-- <tr valign="top">
+    <tr valign="top">
 
         <td class="formlabel">
             <fmt:message key="enrollment_date" bundle="${resword}"/>:
@@ -175,7 +175,7 @@
                 </tr>
             </table>
         </td>
-    </tr> -->
+    </tr>
 
     <!-- <tr valign="top">
         <c:if test="${study.studyParameterConfig.genderRequired !='not used'}">
