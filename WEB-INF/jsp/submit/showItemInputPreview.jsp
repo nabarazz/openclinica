@@ -155,9 +155,7 @@
 		<c:when test="${displayItem.numDiscrepancyNotes > 0}">
 			<c:set var="imageFileName" value="icon_Note" />
 		</c:when>
-		<c:otherwise>
-			<c:set var="imageFileName" value="icon_noNote" />
-		</c:otherwise>
+
 	</c:choose>
 	<td valign="top">
    <%-- <a tabindex="<c:out value="${tabNum + 1000}"/>" href="#" onClick="openDNoteWindow('CreateDiscrepancyNote?id=<c:out value="${displayItem.data.id}"/>&name=itemData&field=input<c:out value="${itemId}" />&column=value','spanAlert-input<c:out value="${itemId}"/>'); return false;"

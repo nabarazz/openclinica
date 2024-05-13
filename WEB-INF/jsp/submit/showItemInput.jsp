@@ -42,7 +42,7 @@
 <c:set var="hasDataFlag" value="${hasDataFlag}" />
 <c:set var="ddeEntered" value="${requestScope['ddeEntered']}" />
  <c:set var="eventCRFId" value="${section.eventCRF.id}"/>
-        
+
 <c:if test="${(respLayout eq 'Horizontal' || respLayout eq 'horizontal')}">
   <c:set var="isHorizontal" value="${true}" />
 </c:if>
@@ -51,15 +51,15 @@
  not originating from doubleDataEntry--%>
 <c:if test="${hasDataFlag == null || empty hasDataFlag}">
   <c:set var="hasDataFlag" value="${false}"/></c:if>
-  
-  
+
+
   <c:if test="${! empty formMessages}">
  	<c:set var="pageHasErrors" value="${true}" />
  </c:if>
 <c:set var="item_data_id"  value="${displayItem.data.id}" />
 <c:if test="${item_data_id == 0}">
    <c:set var="item_data_id"  value="-1" />
-</c:if> 
+</c:if>
  <%-- 24-May-2012 fix for issue #13822 do not display default values when page is displayed back with validation errors --%>
 <c:choose>
   <c:when test="${(originJSP eq 'doubleDataEntry' ||
@@ -558,9 +558,7 @@ include the default value first in the select list --%>
 
 <c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
     <c:choose>
-      <c:when test="${displayItem.discrepancyNoteStatus == 0}">
-          <c:set var="imageFileName" value="icon_noNote" />
-      </c:when>
+
       <c:when test="${displayItem.discrepancyNoteStatus == 1}">
           <c:set var="imageFileName" value="icon_Note" />
       </c:when>

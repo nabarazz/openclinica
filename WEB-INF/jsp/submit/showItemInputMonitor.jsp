@@ -395,9 +395,7 @@ form element in red --%>
 
 <c:if test="${study.studyParameterConfig.discrepancyManagement=='true' && !study.status.locked}">
     <c:choose>
-    <c:when test="${displayItem.discrepancyNoteStatus == 0}">
-        <c:set var="imageFileName" value="icon_noNote" />
-    </c:when>
+
     <c:when test="${displayItem.discrepancyNoteStatus == 1}">
         <c:set var="imageFileName" value="icon_Note" />
     </c:when>
@@ -431,7 +429,7 @@ form element in red --%>
     <c:otherwise>
 
      <c:if test="${isLocked eq 'no'}">
-      <c:set var="imageFileName" value="icon_noNote" />
+
 
        <td valign="top"><a tabindex="<c:out value="${tabNum + 1000}"/>" href="#"  onmouseover="callTip(genToolTips(${itemId}));"
            onmouseout="UnTip()" onClick=

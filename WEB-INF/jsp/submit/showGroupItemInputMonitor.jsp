@@ -205,7 +205,7 @@
   <%-- add for error messages --%>
   <label for="<c:out value="${inputName}"/>"></label>
   <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
- 
+
   <c:choose>
     <c:when test="${isInError}">
       <span class="aka_exclaim_error">! </span><input class="aka_input_error" id="<c:out value="${inputName}"/>" tabindex="<c:out value="${tabNum}"/>" onChange="this.className='changedField'; javascript:setImage('DataStatus_top','images/icon_UnsavedData.gif'); javascript:setImage('DataStatus_bottom','images/icon_UnsavedData.gif');" type="text" name="<c:out value="${inputName}"/>" value="<c:out value="${inputTxtValue}"/>" />
@@ -230,7 +230,7 @@
 <c:if test='${inputType == "textarea"}'>
   <label for="<c:out value="${inputName}"/>"></label>
    <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
- 
+
   <c:choose>
     <c:when test="${isInError}">
       <span class="aka_exclaim_error">! </span><textarea class="aka_input_error" id="<c:out value="${inputName}"/>" tabindex="<c:out value="${tabNum}"/>" onChange="this.className='changedField'; javascript:setImage('DataStatus_top','images/icon_UnsavedData.gif'); javascript:setImage('DataStatus_bottom','images/icon_UnsavedData.gif');" name="<c:out value="${inputName}"/>" rows="5" cols="40"><c:out value="${inputTxtValue}"/></textarea>
@@ -352,7 +352,7 @@
 
   <label for="<c:out value="${inputName}"/>"></label>
   <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
- 
+
   <c:choose>
 
     <c:when test="${isInError}">
@@ -434,7 +434,7 @@
 <c:if test='${inputType == "multi-select"}'>
   <label for="<c:out value="${inputName}"/>"></label>
      <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
-  
+
   <c:choose>
     <c:when test="${isInError}">
       <span class="aka_exclaim_error">! </span><select  class="aka_input_error" id="<c:out value="${inputName}"/>" multiple  tabindex=
@@ -477,9 +477,7 @@
 </c:if>
 <c:if test="${study.studyParameterConfig.discrepancyManagement=='true' && !study.status.locked}">
     <c:choose>
-    <c:when test="${displayItem.discrepancyNoteStatus == 0}">
-        <c:set var="imageFileName" value="icon_noNote" />
-    </c:when>
+
     <c:when test="${displayItem.discrepancyNoteStatus == 1}">
         <c:set var="imageFileName" value="icon_Note" />
     </c:when>
@@ -500,7 +498,7 @@
   </c:choose>
   <c:choose>
     <c:when test="${displayItem.numDiscrepancyNotes > 0}">
- 
+
     <a tabindex="<c:out value="${tabNum + 1000}"/>" href="#" onmouseover="callTip(genToolTips(${itemId}));"
            onmouseout="UnTip()" onClick=
     "openDNoteWindow('ViewDiscrepancyNote?subjectId=<c:out value="${studySubject.id}" />&itemId=<c:out value="${itemId}" />&id=<c:out value="${displayItem.data.id}"/>&name=itemData&field=<c:out value="${parsedInputName}"/>&column=value&monitor=1&writeToDB=1&errorFlag=<c:out value="${errorFlag}"/>&isLocked=<c:out value="${isLocked}"/>','spanAlert-<c:out value="${parsedInputName}"/>','<c:out value="${errorTxtMessage}"/>'); return false;"
@@ -513,15 +511,15 @@
     <c:otherwise>
     <c:set var="notLocked" value="no"/>
      <c:if test="${isLocked eq notLocked}">
-      <c:set var="imageFileName" value="icon_noNote" />
- 
+
+
      <a tabindex="<c:out value="${tabNum + 1000}"/>" href="#"  onmouseover="callTip(genToolTips(${itemId}));"
            onmouseout="UnTip()" onClick=
     "openDNWindow('CreateDiscrepancyNote?subjectId=<c:out value="${studySubject.id}" />&itemId=<c:out value="${itemId}" />&groupLabel=<c:out value="${displayItem.metadata.groupLabel}"/>&sectionId=<c:out value="${displayItem.metadata.sectionId}"/>&id=<c:out value="${displayItem.data.id}"/>&name=itemData&field=<c:out value="${parsedInputName}"/>&column=value&monitor=1&writeToDB=1&errorFlag=<c:out value="${errorFlag}"/>&isLocked=<c:out value="${isLocked}"/>','spanAlert-<c:out value="${parsedInputName}"/>','<c:out value="${errorTxtMessage}"/>'); return false;"
     ><img id="flag_<c:out value="${inputName}"/>" name="flag_<c:out value="${inputName}"/>" src=
     "<c:out value="${contextPath}" />/images/<c:out value="${imageFileName}"/>.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>"
     ></a>
-    
+
     </c:if>
     </c:otherwise>
   </c:choose>

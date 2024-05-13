@@ -260,7 +260,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
 <c:set var="originJSP" value="${param.originJSP}" />
 <c:set var="hasDataFlag" value="${hasDataFlag}" />
 <c:set var="ddeEntered" value="${requestScope['ddeEntered']}" />
-<c:if test="${isNewItem eq true }"> 
+<c:if test="${isNewItem eq true }">
 	<c:set property = "isNewItem" target="${displayItem }" value="true"/>
 </c:if>
 
@@ -275,7 +275,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
 <c:set var="item_data_id"  value="${displayItem.data.id}" />
 <c:if test="${item_data_id == 0}">
    <c:set var="item_data_id"  value="-1" />
-</c:if> 
+</c:if>
 <c:set var="isLocked" value="${param.isLocked}" />
 
 <!--  is a data's value is blank, so monitor can enter discrepancy note -->
@@ -287,7 +287,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
  <c:if test="${empty displayItem.data.value}">
         <c:set var="isBlank" value="1" />
  </c:if>
- 
+
  <c:if test="${! empty formMessages}">
  	<c:set var="pageHasErrors" value="${true}" />
  </c:if>
@@ -301,7 +301,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
   empty displayItem.metadata.responseSet.value && !pageHasErrors}">
     <c:set var="inputTxtValue" value="${defValue}"/>
   </c:when>
- 
+
  <c:otherwise>
    <c:set var="inputTxtValue" value="${displayItem.metadata.responseSet.value}"/>
    </c:otherwise>
@@ -472,8 +472,8 @@ function switchStr(itemId, id,attribute,str1,str2) {
           onChange="this.className='changedField';sameRepGrpInstant('<c:out value="${inputName}"/>', '<c:out value="${itemId}"/>', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStr}" />', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStrDelimiter.code}" />'); setImage('DataStatus_top','images/icon_UnsavedData.gif'); javascript:setImageWithTitle('DataStatus_bottom','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>');" type="checkbox" name="<c:out value="${inputName}"/>" value="<c:out value="${option.value}" />" <c:out value="${checked}"/> /> <c:out value="${option.text}" /> <br/>
         </c:when>
         <c:otherwise>
-          <input id="<c:out value="${inputName}"/>" 
-		  tabindex="<c:out value="${tabNum}"/>" 
+          <input id="<c:out value="${inputName}"/>"
+		  tabindex="<c:out value="${tabNum}"/>"
 		  onChange="this.className='changedField'; sameRepGrpInstant('<c:out value="${inputName}"/>', '<c:out value="${itemId}"/>', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStr}" />', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStrDelimiter.code}" />');setImage('DataStatus_top','images/icon_UnsavedData.gif'); javascript:setImageWithTitle('DataStatus_bottom','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>');" type="checkbox" name="<c:out value="${inputName}"/>" value="<c:out value="${option.value}" />" <c:out value="${checked}"/> /> <c:out value="${option.text}" /> <br/>
        </c:otherwise>
       </c:choose>
@@ -557,7 +557,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
 
   <label for="<c:out value="${inputName}"/>"></label>
   <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
- 
+
   <c:choose>
   	<c:when test="${displayItem.metadata.defaultValue != '' &&
                 displayItem.metadata.defaultValue != null}">
@@ -565,7 +565,7 @@ function switchStr(itemId, id,attribute,str1,str2) {
     </c:when>
     <c:otherwise><c:set var="printDefault" value="false"/></c:otherwise>
   </c:choose>
- <%-- 24-May-2012 fix for issue #13772 --%> 
+ <%-- 24-May-2012 fix for issue #13772 --%>
    <%-- determine whether a default value is not included in response options; if it's not, then
 include the default value first in the select list --%>
     <c:if test="${printDefault}">
@@ -576,13 +576,13 @@ include the default value first in the select list --%>
             </c:if>
         </c:forEach>
     </c:if>
-    
+
   <c:choose>
     <c:when test="${isInError}">
       <span class="aka_exclaim_error">! </span>
       <select class="aka_input_error" id="<c:out value="${inputName}"/>" tabindex="<c:out value="${tabNum}"/>"
       onChange="this.className='changedField'; sameRepGrpInstant('<c:out value="${inputName}"/>', '<c:out value="${itemId}"/>', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStr}" />', '<c:out value="${displayItem.instantFrontStrGroup.sameRepGrpFrontStr.frontStrDelimiter.code}" />'); javascript:setImageWithTitle('DataStatus_top','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>'); javascript:setImageWithTitle('DataStatus_bottom','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>');" name="<c:out value="${inputName}"/>" class="formfield">
-         
+
         <c:if test="${printDefaultFirst}">
              <option value="<c:out value="" />" selected="selected"
                             <c:out value=""/> ><c:out value="${displayItem.metadata.defaultValue}" />
@@ -646,7 +646,7 @@ include the default value first in the select list --%>
 <c:if test='${inputType == "multi-select"}'>
   <label for="<c:out value="${inputName}"/>"></label>
      <input type="hidden" id="defValue<c:out value="${inputName}"/>" name="defValue<c:out value="${inputName}"/>" value="<c:out value="${defValue}"/>"/>
-  
+
   <c:choose>
     <c:when test="${isInError}">
       <span class="aka_exclaim_error">! </span><select  class="aka_input_error" id="<c:out value="${inputName}"/>" multiple  tabindex=
@@ -751,18 +751,18 @@ include the default value first in the select list --%>
 					<c:when test="${isNewItem eq true }">
 							<input id="<c:out value="${inputName}"/>" tabindex="<c:out value="${tabNum}"/>" onChange=
 							"this.className='changedField'; javascript:setImageWithTitle('DataStatus_top','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>'); javascript:setImageWithTitle('DataStatus_bottom','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>');" type="text" class="disabled" disabled="disabled" name="<c:out value="${inputName}"/>" value="" />
-    		
+
 					</c:when>
-				
+
 					<c:otherwise>
-					
+
 						<input id="<c:out value="${inputName}"/>" tabindex="<c:out value="${tabNum}"/>" onChange=
 							"this.className='changedField'; javascript:setImageWithTitle('DataStatus_top','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>'); javascript:setImageWithTitle('DataStatus_bottom','images/icon_UnsavedData.gif', '<fmt:message key="changed_not_saved" bundle="${restext}"/>');" type="text" class="disabled" disabled="disabled" name="<c:out value="${inputName}"/>" value="<c:out value="${displayItem.metadata.responseSet.value}"/>" />
     		</c:otherwise>
 					</c:choose>
-				
-				
-				
+
+
+
 					</c:otherwise>
 			</c:choose>
 		</c:otherwise>
@@ -773,9 +773,7 @@ include the default value first in the select list --%>
 </c:if>
 <c:if test="${study.studyParameterConfig.discrepancyManagement=='true' && !study.status.locked}">
     <c:choose>
-    <c:when test="${displayItem.discrepancyNoteStatus == 0}">
-        <c:set var="imageFileName" value="icon_noNote" />
-    </c:when>
+
     <c:when test="${displayItem.discrepancyNoteStatus == 1}">
         <c:set var="imageFileName" value="icon_Note" />
     </c:when>
@@ -791,7 +789,7 @@ include the default value first in the select list --%>
     <c:when test="${displayItem.discrepancyNoteStatus == 5}">
         <c:set var="imageFileName" value="icon_flagWhite" />
     </c:when>
-    
+
     <c:otherwise>
     </c:otherwise>
   </c:choose>
@@ -810,14 +808,14 @@ include the default value first in the select list --%>
     </c:when>
     <c:otherwise>
      <c:if test="${(isLocked == null) || (isLocked eq 'no')}">
-      <c:set var="imageFileName" value="icon_noNote" />
-  		 
-       
+
+
+
          <c:set var="eventName" value="${toc.studyEventDefinition.name}"/>
          <c:set var="eventDate" value="${toc.studyEvent.dateStarted}"/>
          <c:set var="crfName" value="${toc.crf.name} ${toc.crfVersion.name}"/>
-		
-		
+
+
        <a tabindex="<c:out value="${tabNum + 1000}"/>" href="#"  onmouseover="callTip(genToolTips(${itemId}));"
            onmouseout="UnTip();" onClick=
     "openDNWindow('CreateDiscrepancyNote?rowCount=${param.rowCount}&eventCRFId=${eventCRFId}&isGroup=1&subjectId=<c:out value="${studySubject.id}" />&itemId=<c:out value="${itemId}" />&groupLabel=<c:out value="${displayItem.metadata.groupLabel}"/>&sectionId=<c:out value="${displayItem.metadata.sectionId}"/>&id=<c:out value="${item_data_id}"/>&name=itemData&field=<c:out value="${inputName}"/>&column=value&monitor=1&errorFlag=<c:out value="${errorFlag}"/>&isLocked=<c:out value="${isLocked}"/>&eventName=${eventName}&eventDate=${eventDate}&crfName=${crfName}','spanAlert-<c:out value="${inputName}"/>','<c:out value="${errorTxtMessage}"/>'); return false;"

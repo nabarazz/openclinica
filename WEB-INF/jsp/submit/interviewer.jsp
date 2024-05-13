@@ -610,9 +610,7 @@ form element in red <c:out value="FORMMESSAGES: ${formMessages} "/><br/>--%>
                 <c:if test="${study.studyParameterConfig.discrepancyManagement=='true' && !study.status.locked}">
                     <%--<c:if test="${! (enclosingPage eq 'viewSectionData')}">--%>
                 <c:choose>
-                  <c:when test="${nameNoteResStatus == 0}">
-                      <c:set var="imageFileName" value="icon_noNote" />
-                  </c:when>
+
                   <c:when test="${nameNoteResStatus == 1}">
                       <c:set var="imageFileName" value="icon_Note" />
                   </c:when>
@@ -729,9 +727,7 @@ form element in red <c:out value="FORMMESSAGES: ${formMessages} "/><br/>--%>
                     <%-- <c:if test="${! (enclosingPage eq 'viewSectionData')}">--%>
                 <c:set var="isNewDNDate" value="${hasDateNote eq 'yes' ? 0 : 1}"/>
                 <c:choose>
-                  <c:when test="${IntrvDateNoteResStatus == 0}">
-                      <c:set var="imageFileName" value="icon_noNote" />
-                  </c:when>
+
                   <c:when test="${IntrvDateNoteResStatus == 1}">
                       <c:set var="imageFileName" value="icon_Note" />
                   </c:when>
