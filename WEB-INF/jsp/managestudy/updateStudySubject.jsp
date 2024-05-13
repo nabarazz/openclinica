@@ -101,7 +101,7 @@
 	  </tr>
 	  <!-- <tr valign="top">
 	  <td class="formlabel"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td>
-	  <td> -->
+	  <td>
 	  <div class="formfieldXL_BG">
 
 	  <input type="text" name="enrollmentDate" value="<c:out value="${enrollDateStr}" />" class="formfieldXL" id="enrollmentDateField"></div>
@@ -115,7 +115,7 @@
 	  </a>
 
 	  </td>
-	 </tr>
+	 </tr> -->
 	</table>
 	</div>
 	</div></div></div></div></div></div></div></div>
