@@ -99,9 +99,9 @@
 	  	<td><jsp:include page="../showMessage.jsp"><jsp:param name="key" value="secondaryLabel"/></jsp:include></td>
 	  </td>
 	  </tr>
-	  <tr valign="top">
+	  <!-- <tr valign="top">
 	  <td class="formlabel"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td>
-	  <td>
+	  <td> -->
 	  <div class="formfieldXL_BG">
 
 	  <input type="text" name="enrollmentDate" value="<c:out value="${enrollDateStr}" />" class="formfieldXL" id="enrollmentDateField"></div>
