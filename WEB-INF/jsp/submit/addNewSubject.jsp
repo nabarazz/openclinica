@@ -214,11 +214,11 @@
                         </script>
 
                     </a>
-					<c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
+					<!-- <c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
 					  <a href="#" onClick="openDSNoteWindow('CreateDiscrepancyNote?name=studySub&field=enrollmentDate&column=enrollment_date','spanAlert-enrollmentDate'); return false;">
 
 					  </a>
-					</c:if>
+					</c:if> -->
 					</td>
 				</tr>
 				<tr>
