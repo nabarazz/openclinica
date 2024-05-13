@@ -196,7 +196,7 @@
             </c:if>
 
         </td>
-	  	<!-- <td valign="top">
+	  	<td valign="top">
 			<table border="0" cellpadding="0" cellspacing="0">
 				<tr>
 					<td valign="top">
@@ -226,7 +226,7 @@
 				</tr>
 			</table>
 	  	</td>
-	</tr> -->
+	</tr>
 
 	<!-- <tr valign="top">
         <c:if test="${study.studyParameterConfig.genderRequired !='not used'}">
