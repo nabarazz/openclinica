@@ -497,17 +497,7 @@
     </c:otherwise>
   </c:choose>
   <c:choose>
-    <c:when test="${displayItem.numDiscrepancyNotes > 0}">
 
-    <a tabindex="<c:out value="${tabNum + 1000}"/>" href="#" onmouseover="callTip(genToolTips(${itemId}));"
-           onmouseout="UnTip()" onClick=
-    "openDNoteWindow('ViewDiscrepancyNote?subjectId=<c:out value="${studySubject.id}" />&itemId=<c:out value="${itemId}" />&id=<c:out value="${displayItem.data.id}"/>&name=itemData&field=<c:out value="${parsedInputName}"/>&column=value&monitor=1&writeToDB=1&errorFlag=<c:out value="${errorFlag}"/>&isLocked=<c:out value="${isLocked}"/>','spanAlert-<c:out value="${parsedInputName}"/>','<c:out value="${errorTxtMessage}"/>'); return false;"
-    ><img id="flag_<c:out value="${inputName}"/>" name="flag_input<c:out value="${inputName}" />" src=
-    "<c:out value="${contextPath}" />/images/<c:out value="${imageFileName}"/>.gif" border="0" alt=
-    "<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>"
-     ></a>
-
-    </c:when>
     <c:otherwise>
     <c:set var="notLocked" value="no"/>
      <c:if test="${isLocked eq notLocked}">

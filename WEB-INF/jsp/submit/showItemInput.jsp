@@ -582,17 +582,7 @@ include the default value first in the select list --%>
    <c:when test="${originJSP eq 'administrativeEditing'}">
 
    <c:choose>
-    <c:when test="${(displayItem.numDiscrepancyNotes > 0) && (isForcedRFC eq 'false')}">
 
-       <td valign="top"><a tabindex="<c:out value="${tabNum + 1000}"/>" href="#"   onmouseover="callTip(genToolTips_ItemInput(${itemId}));"
-           onmouseout="UnTip()" onClick=
-    "openDNoteWindow('ViewDiscrepancyNote?isGroup=-1&eventCRFId=${eventCRFId}&subjectId=<c:out value="${studySubject.id}" />&isRfc=0&itemId=<c:out value="${itemId}" />&id=<c:out value="${item_data_id}"/>&name=itemData&field=input<c:out value="${itemId}"/>&column=value&monitor=1&writeToDB=1','spanAlert-input<c:out value="${itemId}"/>','<c:out value="${errorTxtMessage}"/>'); return false;"
-    ><img id="flag_input<c:out value="${itemId}" />" name="flag_input<c:out value="${itemId}" />" src=
-    "images/<c:out value="${imageFileName}"/>.gif" border="0" alt=
-    "<fmt:message key="discrepancy_note" bundle="${resword}"/>"
-     ></a></td>
-
-    </c:when>
     <c:when test="${(displayItem.numDiscrepancyNotes > 0) && (isForcedRFC eq 'true')}">
 
 		<td valign="top"><a tabindex="<c:out value="${tabNum + 1000}"/>" href="#"    onmouseover="callTip(genToolTips_ItemInput(${itemId}));"
