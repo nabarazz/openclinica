@@ -83,7 +83,7 @@
 	  var app_groupLabel = '<oc:jsEscape key="group" bundle="${resword}"/>';
 	  var app_detailsLabel = '<oc:jsEscape key="details" bundle="${resword}"/>';
 
-	  var app_enrollment_dateLabel = '<oc:jsEscape key="enrollment_date" bundle="${resword}"/>';
+	  // var app_enrollment_dateLabel = '<oc:jsEscape key="enrollment_date" bundle="${resword}"/>';
 
 
 
