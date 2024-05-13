@@ -81,7 +81,7 @@
     <td class="table_header_row_left"><fmt:message key="study_subject_ID" bundle="${resword}"/></td>
     <td class="table_header_row"><fmt:message key="secondary_ID" bundle="${resword}"/></td>
     <td class="table_header_row"><fmt:message key="study_ID" bundle="${resword}"/></td>
-    <!-- <td class="table_header_row"><fmt:message key="enrollment_date" bundle="${resword}"/></td> -->
+    <td class="table_header_row"><fmt:message key="enrollment_date" bundle="${resword}"/></td>
     <td class="table_header_row"><fmt:message key="date_created" bundle="${resword}"/></td>
     <td class="table_header_row"><fmt:message key="created_by" bundle="${resword}"/></td>
     <td class="table_header_row"><fmt:message key="status" bundle="${resword}"/></td>

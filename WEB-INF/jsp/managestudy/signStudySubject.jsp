@@ -314,10 +314,10 @@
 
                 </td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td class="table_header_column"><fmt:message key="enrollment_date" bundle="${resword}"/></td>
                 <td class="table_cell_top"><fmt:formatDate value="${studySub.enrollmentDate}" pattern="${dteFormat}"/>&nbsp;</td>
-            </tr>
+            </tr> -->
 
         </table>
 
@@ -771,7 +771,7 @@
 
                 </td>
             </tr>
-            
+
         </table>
 
         <!-- End Table Contents -->
