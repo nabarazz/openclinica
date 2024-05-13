@@ -16,10 +16,7 @@
 				<td><img src="images/icon_Note.gif"></td>
 				<td><fmt:message key="discrepancy_note" bundle="${reswords}"/></td>
 			</tr>
-			<tr>
-				<td><img src="images/icon_noNote.gif"></td>
-				<td><fmt:message key="add_discrepancy_note" bundle="${reswords}"/></td>
-			</tr>
+
 			<tr>
 				<td><img src="images/icon_UnchangedData.gif"></td>
 				<td><fmt:message key="form_data_not_modified" bundle="${reswords}"/></td>

@@ -54,7 +54,7 @@
 				<td><img src="../images/bt_Unlock.gif"></td>
 				<td><fmt:message key="unlock" bundle="${resword}"/></td>
 			</tr>
-			
+
 			<tr>
 				<td><img src="../images/bt_Print.gif"></td>
 				<td><fmt:message key="print" bundle="${resword}"/></td>
@@ -63,10 +63,7 @@
 				<td><img src="../images/icon_Note.gif"></td>
 				<td><fmt:message key="discrepancy_note" bundle="${resword}"/></td>
 			</tr>
-			<tr>
-				<td><img src="../images/icon_noNote.gif"></td>
-				<td><fmt:message key="add_discrepancy_note" bundle="${resword}"/></td>
-			</tr>
+
 			<tr>
 				<td><img src="../images/icon_UnchangedData.gif"></td>
 				<td><fmt:message key="form_data_not_modified" bundle="${resword}"/></td>
@@ -115,9 +112,8 @@
 				<td><img src="../images/icon_Invalid.gif"></td>
 				<td><fmt:message key="invalid" bundle="${resword}"/></td>
 			</tr>
-			
+
 		</table>
 
 </body>
-</html>	
-	
+</html>

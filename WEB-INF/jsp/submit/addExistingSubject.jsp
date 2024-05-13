@@ -80,8 +80,8 @@
 	<c:if test='${presetValue.key == "group"}'>
 		<c:set var="groupId" value="${presetValue.value}" />
 	</c:if>
-	
-	
+
+
 	<c:if test='${presetValue.key == "editDob"}'>
 		<c:set var="editDob" value="${presetValue.value}" />
 	</c:if>
@@ -188,7 +188,9 @@
                     </a>
 					<%--(<fmt:message key="date_format" bundle="${resformat}"/>)--%> *
 					<c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}"><a href="#" onClick="openDSNoteWindow('CreateDiscrepancyNote?name=studySub&field=enrollmentDate&column=enrollment_date','spanAlert-enrollmentDate'); return false;">
-					<img name="flag_enrollmentDate" src="images/icon_noNote.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>"></a></c:if>
+
+					</a>
+					</c:if>
 					</td>
 				</tr>
 				<tr>
@@ -248,7 +250,7 @@
 					<td>
 					<%-- (<fmt:message key="date_format" bundle="${resword}"/>)--%> *<c:if test="${study.studyParameterConfig.discrepancyManagement=='true'}">
 					<a href="#" onClick="openDSNoteWindow('CreateDiscrepancyNote?name=subject&field=dob&column=date_of_birth','spanAlert-dob'); return false;">
-					<img name="flag_dob" src="images/icon_noNote.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>"></a>
+					</a>
 					</c:if></td>
 					    </c:when>
 					    <c:otherwise>

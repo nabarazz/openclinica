@@ -338,7 +338,7 @@ form element in red <c:out value="FORMMESSAGES: ${formMessages} "/><br/>--%>
                                     <img id="flag_interviewer" name="flag_interviewer" src="images/icon_Note.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>">
                                 </c:when>
                                 <c:otherwise>
-                                    <img id="flag_interviewer" name="flag_interviewer" src="images/icon_noNote.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>">
+
                                 </c:otherwise>
                             </c:choose>
                         </a>
@@ -424,7 +424,7 @@ form element in red <c:out value="FORMMESSAGES: ${formMessages} "/><br/>--%>
                                     <img id="flag_interviewDate" name="flag_interviewDate" src="images/icon_Note.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>" >
                                 </c:when>
                                 <c:otherwise>
-                                    <img id="flag_interviewDate" name="flag_interviewDate" src="images/icon_noNote.gif" border="0" alt="<fmt:message key="discrepancy_note" bundle="${resword}"/>" title="<fmt:message key="discrepancy_note" bundle="${resword}"/>" >
+
                                 </c:otherwise>
                             </c:choose>
                         </a>
