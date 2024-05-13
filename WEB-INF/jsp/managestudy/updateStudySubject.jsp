@@ -99,7 +99,7 @@
 	  	<td><jsp:include page="../showMessage.jsp"><jsp:param name="key" value="secondaryLabel"/></jsp:include></td>
 	  </td>
 	  </tr>
-	  <!-- <tr valign="top">
+	  <tr valign="top">
 	  <td class="formlabel"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td>
 	  <td>
 	  <div class="formfieldXL_BG">
@@ -115,7 +115,7 @@
 	  </a>
 
 	  </td>
-	 </tr> -->
+	 </tr>
 	</table>
 	</div>
 	</div></div></div></div></div></div></div></div>
@@ -133,9 +133,9 @@
 	  <tr valign="top"><td class="table_header_column"><fmt:message key="secondary_ID" bundle="${resword}"/>:</td><td class="table_cell">
 	  <input type="text" name="secondaryLabel" value="<c:out value="${studySub.secondaryLabel}"/>" disabled="disabled" class="formfieldM">
 	  </td></tr>
-	  <tr valign="top"><td class="table_header_column"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td><td class="table_cell">
+	  <!-- <tr valign="top"><td class="table_header_column"><fmt:message key="enrollment_date" bundle="${resword}"/>:</td><td class="table_cell">
 	  <input type="text" name="enrollmentDate" value="<c:out value="${enrollDateStr}" />" disabled="disabled" class="formfieldM" id="enrollmentDateField">
-	  </td></tr>
+	  </td></tr> -->
 	 </table>
 
 	 </div>
